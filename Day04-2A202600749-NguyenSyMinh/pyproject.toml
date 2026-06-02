@@ -1,0 +1,20 @@
+[project]
+name = "orderdesk-langgraph-lab"
+version = "0.2.0"
+description = "Advanced Day 4 lab for building a tool-calling order agent with LangGraph"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "langchain>=1.0.0",
+  "langgraph>=0.6.0",
+  "langchain-core>=0.3.0",
+  "langchain-google-genai>=2.1.0",
+  "langchain-ollama>=0.3.0",
+  "pydantic>=2.8.0",
+  "python-dotenv>=1.0.1",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=9.0.0",
+]
